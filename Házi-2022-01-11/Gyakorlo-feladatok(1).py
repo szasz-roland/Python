@@ -25,11 +25,18 @@ print(result)
 
 
 # 4 feladat > Készíts programot, amely bekér a felhasználótól egy valós számot (Celsius fok), az eredményt átváltja Fahrenheit értékbe, és kiírja az eredményt a képernyőre (0°C=32°F, 40°C=104°F, lineáris)! Írd meg ugyanezt fordítva is!
-celsius = int(input("Add meg a celsius fokot> "))
-if celsius == 0:
-    print(32)
-else:
-    print((celsius * 1.8) + 3)
+
+doIng = str(input("'F' faranheitet akarsz celsiusba 'C' ha fordítva >"))
+
+if doIng == "F":
+    faranheit = float(input("Add meg a faranheit értékét> "))
+    print((faranheit * 1.8) + 32)
+elif doIng == "C":
+    celsius = float(input("Add meg a celsius fokot> "))
+    print((celsius * 1.8) + 32)
+
+
+
 
 # 5 feladat >  Készíts programot, mely két időpontot kérdez a felhasználótól (óra, perc, másodperc külön), majd kiszámítja a két időpont közötti időtartamot ásodpercben, és az eredményt kiírja a képernyőre.
 # -----------Eggyik óra-----------------------
