@@ -1,9 +1,5 @@
-# ----importok----
-import math
-# ----------------
-
 # 1. feladat > Helló világ: Készíts programot, mely kiírja a képernyőre azt a szöveget, hogy „Hello World”!
-# print("Hello World!")
+print("Hello World!")
 
 
 # 2. feladat >  Készíts programot, amely bekéri a felhasználó nevét, majd üdvözli őt a nevén szólítva!
@@ -30,12 +26,10 @@ doIng = str(input("'F' faranheitet akarsz celsiusba 'C' ha fordítva >"))
 
 if doIng == "F":
     faranheit = float(input("Add meg a faranheit értékét> "))
-    print((faranheit * 1.8) + 32)
+    print((faranheit - 32) / 1.8)
 elif doIng == "C":
     celsius = float(input("Add meg a celsius fokot> "))
     print((celsius * 1.8) + 32)
-
-
 
 
 # 5 feladat >  Készíts programot, mely két időpontot kérdez a felhasználótól (óra, perc, másodperc külön), majd kiszámítja a két időpont közötti időtartamot ásodpercben, és az eredményt kiírja a képernyőre.
@@ -44,7 +38,7 @@ ora1 = int(input("Hány óra?> "))
 perc1 = int(input("Hány perc?> "))
 masodperc1 = int(input("Hány másodperc?> "))
 
-OraInSec1 = (ora1 * 60) * 60 #hunglish :D
+OraInSec1 = (ora1 * 60) * 60  # hunglish :D
 MinInSec1 = perc1 * 60
 
 result1 = OraInSec1 + MinInSec1 + masodperc1
@@ -165,7 +159,6 @@ if num1 > num2:
 else:
     lower = num1
     upper = num2
-
 
 
 helper = lower
