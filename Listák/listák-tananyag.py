@@ -24,7 +24,7 @@ print("Ez a változtatott listánk:", numbers)
 ###################################
 # numbers[y] = x
 # az x egy új lista tag ami lehet szám vagy szó is
-# az x-et beszúrja a lista y-onodik helyére
+# az x-et kicseréli az adott helyen lévő számmal!
 ###################################
 
 # ---------------------------------------------------------------------------------------------
